@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#primaryGrad)"/>
+  <path d="M16 26C14.3431 26 13 24.6569 13 23C13 21.6193 13.9312 20.4559 15.2157 20.1066C14.7719 19.3406 14.5 18.455 14.5 17.5C14.5 14.4624 16.9624 12 20 12C20.6869 12 21.3434 12.126 21.949 12.357C22.8465 10.932 24.4172 10 26.2 10C28.8509 10 31 12.1491 31 14.8C31 15.0264 30.9843 15.2492 30.9538 15.4673C32.1706 16.1432 33 17.4727 33 19C33 20.7303 31.9056 22.2037 30.3807 22.7663C30.4593 23.1643 30.5 23.5768 30.5 24C30.5 25.1046 29.6046 26 28.5 26H16Z" fill="white" opacity="0.95"/>
+  <path d="M15 28C15 27.4477 15.4477 27 16 27H29C29.5523 27 30 27.4477 30 28V29C30 30.6569 28.6569 32 27 32H18C16.3431 32 15 30.6569 15 29V28Z" fill="white"/>
+  <circle cx="34" cy="12" r="2.5" fill="url(#accentGrad)"/>
+  <path d="M37 18L38 20L40 21L38 22L37 24L36 22L34 21L36 20L37 18Z" fill="#FBBF24"/>
+  <path d="M19 36C22.5 38 27.5 38 31 36" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="21" cy="30" r="1.2" fill="#059669"/>
+  <circle cx="25" cy="30" r="1.2" fill="#059669"/>
+</svg>

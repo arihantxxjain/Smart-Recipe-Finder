@@ -1,61 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Smart Recipe Finder</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div class="header-image">
-        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Recipe Finder">
-      </div>
-      <h1>🍳 Smart Recipe Finder</h1>
-      <p>Discover quick and delicious recipes tailored to your ingredients!</p>
-    </header>
-
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="e.g., paneer, pasta, chocolate..." />
-      <button onclick="searchRecipe()"><i class="fas fa-search"></i> Search</button>
-    </div>
-
-    
-    <div class="featured-categories">
-        <h2>Popular Categories</h2>
-        <div class="categories">
-          <div class="category-card" onclick="filterByCategory('vegetarian')">
-            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Vegetarian">
-            <h3>Vegetarian</h3>
-          </div>
-          <div class="category-card" onclick="filterByCategory('dessert')">
-            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Desserts">
-            <h3>Desserts</h3>
-          </div>
-          <div class="category-card" onclick="filterByCategory('quick')">
-            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Quick Meals">
-            <h3>Quick Meals</h3>
-          </div>
-        </div>
-      </div>
-
-    <div class="results" id="results">
-      <!-- Recipe results will be displayed here -->
-    </div>
-
-    <footer>
-      <p>© 2023 Smart Recipe Finder</p>
-      <div class="footer-links">
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy Policy</a>
-      </div>
-    </footer>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Smart Recipe Finder & AI Chef by Arihant Jain. Discover recipes with ingredients you have in your kitchen, reduce food waste, and get instant cooking inspiration." />
+    <meta name="author" content="Arihant Jain" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Smart Recipe Finder | AI Cooking Assistant & Pantry Matcher</title>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
