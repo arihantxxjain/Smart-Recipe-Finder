@@ -25,3 +25,11 @@ dist-ssr
 
 # Testing
 coverage
+
+# Local host launchers and environment files (keep off GitHub)
+*localhost*
+local-server.js
+start-localhost.bat
+run-localhost.ps1
+.env*.local
+
