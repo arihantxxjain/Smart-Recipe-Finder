@@ -117,7 +117,7 @@ Then display them in the README:
 Clone the repository
 
 ```bash
-git clone https://github.com/ArisettiSaiSindhu/Smart-Recipe-Finder.git
+git clone https://github.com/arihantxxjain/Smart-Recipe-Finder.git
 ```
 
 Navigate to the project
@@ -176,12 +176,11 @@ Contributions are welcome!
 
 ---
 
-# 👩‍💻 Author
+# 👨‍💻 Author
 
-**Arisetti Sai Sindhu**
+**Arihant Jain**
 
-- GitHub: https://github.com/ArisettiSaiSindhu
-- LinkedIn: https://www.linkedin.com/in/sai-sindhu-arisetti/
+- GitHub: https://github.com/arihantxxjain
 
 ---
 
