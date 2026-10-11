@@ -28,14 +28,9 @@ const Navbar = ({ onOpenFavorites }) => {
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 group-hover:scale-105 transition">
             <ChefHat className="w-6 h-6 stroke-[2.2]" />
           </div>
-          <div className="flex flex-col">
-            <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-emerald-700 transition flex items-center gap-1">
-              SmartRecipe <span className="text-emerald-600">Finder</span>
-            </span>
-            <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400">
-              By Arihant Jain
-            </span>
-          </div>
+          <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-emerald-700 transition flex items-center gap-1">
+            SmartRecipe <span className="text-emerald-600">Finder</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation Links */}

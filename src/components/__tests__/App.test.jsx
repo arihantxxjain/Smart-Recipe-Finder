@@ -5,12 +5,11 @@ import Navbar from '../Navbar';
 import RecipeCard from '../RecipeCard';
 
 describe('Smart Recipe Finder Components', () => {
-  it('renders Navbar brand name and author attribution', () => {
+  it('renders Navbar brand name', () => {
     renderWithRouter(<Navbar />);
 
     expect(screen.getByText('SmartRecipe')).toBeInTheDocument();
     expect(screen.getByText('Finder')).toBeInTheDocument();
-    expect(screen.getByText('By Arihant Jain')).toBeInTheDocument();
   });
 
   it('renders RecipeCard with title and styling', () => {
